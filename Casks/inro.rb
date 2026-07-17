@@ -1,6 +1,6 @@
 cask "inro" do
-  version "0.1.0"
-  sha256 "865851b16e9e2ce07264ec6458edc977f5bdfd2289ac1fd0ccbdcd166a8c361a"
+  version "0.1.1"
+  sha256 "53dcacc91750494d13971c6766f662ff629658ff7bdc7b270e0d8706e6c34c56"
 
   url "https://github.com/crgimenes/inro/releases/download/v#{version}/inro-darwin-universal.zip"
   name "inro"
