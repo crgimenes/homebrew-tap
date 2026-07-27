@@ -1,6 +1,6 @@
 cask "keikiban" do
-  version "0.0.2"
-  sha256 "b4079c407bed017007574bdcdd3c6365b865b7ac1735b519dd513284e7ad47c4"
+  version "0.0.3"
+  sha256 "f160715b2f9ad23958ea385c2273c11a9a7a3ac514cfa6baf156279fd4ed6ba9"
 
   url "https://github.com/crgimenes/keikiban/releases/download/v#{version}/keikiban-darwin-universal.zip"
   name "keikiban"
