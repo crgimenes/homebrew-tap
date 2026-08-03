@@ -1,6 +1,6 @@
 cask "gion" do
-  version "0.0.3"
-  sha256 "4760b42d692bfd5596652b00c408a913813250faf9e953a86c7a50b7e3de81f8"
+  version "0.0.4"
+  sha256 "49cf588ef03c6d71222983b0b70c556e15c0c66510e71e41e41fc06f4bcadd2a"
 
   url "https://github.com/crgimenes/gion/releases/download/v#{version}/gion-darwin-universal.zip"
   name "gion"
