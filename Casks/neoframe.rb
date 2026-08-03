@@ -1,4 +1,4 @@
-cask "NeoFrame" do
+cask "neoframe" do
   version "0.0.10"
   sha256 "623dd122df7074018245af66f3ca1af7399ad32aafc4181190eb806b58e64ded"
 
