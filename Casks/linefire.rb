@@ -1,6 +1,6 @@
 cask "linefire" do
-  version "0.0.50"
-  sha256 "efffb53756ad6b5eaf3becc160ae89d49df842fa971c27670f370df0f2281766"
+  version "0.0.51"
+  sha256 "d54f1262d88988abea4326b201191de9045c2d7f916ac7be3e81a40505cfc062"
 
   url "https://github.com/crgimenes/linefire/releases/download/v#{version}/linefire-darwin-universal.zip"
   name "linefire"
