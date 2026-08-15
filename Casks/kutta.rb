@@ -1,6 +1,6 @@
 cask "kutta" do
-  version "0.1.11"
-  sha256 "68d9b3282d1264a66d947f830ef6a60b2b783614f150e5b6a6f57b2cae62b7d8"
+  version "0.0.12"
+  sha256 "1641315770b6e1ff78905997b84b1355b8fe6c575cd90c0e328bb42a173aea90"
 
   url "https://github.com/crgimenes/kutta/releases/download/v#{version}/kutta-darwin-universal.zip"
   name "kutta"
