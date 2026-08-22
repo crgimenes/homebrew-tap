@@ -1,6 +1,6 @@
 cask "migration" do
-  version "5.1.1"
-  sha256 "9462bfa24516f293261188d3f1073209746fc37992ee7203e84bf0a9c00c2949"
+  version "5.1.2"
+  sha256 "8f2333d27093d452c539e954ae6c8a52c9e6c1baa8334700f26a97a151cbdca4"
 
   url "https://github.com/crgimenes/migration/releases/download/v#{version}/migration-darwin-universal.zip"
   name "migration"
