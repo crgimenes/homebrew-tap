@@ -1,6 +1,6 @@
 cask "neko" do
-  version "0.1.45"
-  sha256 "74fbe8ca3a43f1e5410cb97ea5968fdbf58d03ce5f4df9fd3b84f3841d7971a2"
+  version "0.1.46"
+  sha256 "7c8b8f5de57629749ab8019860930cd37667ab813a6bfd692850ec7199ea376d"
 
   url "https://github.com/crgimenes/neko/releases/download/v#{version}/neko-darwin-universal.zip"
   name "neko"
@@ -12,7 +12,7 @@ cask "neko" do
     strategy :github_latest
   end
 
-  depends_on macos: :monterey
+  depends_on macos: :ventura
 
   app "neko.app"
 end
