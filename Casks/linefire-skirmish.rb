@@ -1,6 +1,6 @@
 cask "linefire-skirmish" do
-  version "0.0.1"
-  sha256 "368a4496cd411a0c44803a0e870f412235c5b55bdf34e71ab87ce960b5e863f6"
+  version "0.0.2"
+  sha256 "2349e1ae964775e25aa18e2b9feba900beac58357207cd869d0d8204d78fe2a2"
 
   url "https://github.com/crgimenes/linefire-skirmish/releases/download/v#{version}/linefire-skirmish-darwin-universal.zip"
   name "linefire-skirmish"
@@ -12,7 +12,7 @@ cask "linefire-skirmish" do
     strategy :github_latest
   end
 
-  depends_on macos: :monterey
+  depends_on macos: :ventura
 
   app "linefire-skirmish.app"
 end
