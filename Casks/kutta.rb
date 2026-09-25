@@ -1,6 +1,6 @@
 cask "kutta" do
-  version "0.0.12"
-  sha256 "1641315770b6e1ff78905997b84b1355b8fe6c575cd90c0e328bb42a173aea90"
+  version "0.0.13"
+  sha256 "99728068d47b8c818c4f5290dc280523fb10ef15a52e2b43889c51b33e090824"
 
   url "https://github.com/crgimenes/kutta/releases/download/v#{version}/kutta-darwin-universal.zip"
   name "kutta"
@@ -12,7 +12,7 @@ cask "kutta" do
     strategy :github_latest
   end
 
-  depends_on macos: :monterey
+  depends_on macos: :ventura
 
   app "kutta.app"
 end
