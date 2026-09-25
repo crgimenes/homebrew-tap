@@ -1,6 +1,6 @@
 cask "linefire" do
-  version "0.0.52"
-  sha256 "852f3350abf91c02ad343d2656fd34a7fe147758347b8c57252ef6f50fe39b73"
+  version "0.0.54"
+  sha256 "6bcfea8d46e93301958906707f8ba85f4cd0bc7ed7e9c3839163856e21957101"
 
   url "https://github.com/crgimenes/linefire/releases/download/v#{version}/linefire-darwin-universal.zip"
   name "linefire"
@@ -12,7 +12,7 @@ cask "linefire" do
     strategy :github_latest
   end
 
-  depends_on macos: :monterey
+  depends_on macos: :ventura
 
   app "linefire.app"
 end
