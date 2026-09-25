@@ -1,6 +1,6 @@
 cask "inro" do
-  version "0.1.3"
-  sha256 "6454bb0d4199c1ed11d5b685bc330cab49e30be1fdd18b34f984aae5e0b5f2f5"
+  version "0.1.4"
+  sha256 "5c43bb432846b71d4c13f9e39ce7614406412d1523e9880a0a8e3bbbbb51de7f"
 
   url "https://github.com/crgimenes/inro/releases/download/v#{version}/inro-darwin-universal.zip"
   name "inro"
@@ -12,7 +12,7 @@ cask "inro" do
     strategy :github_latest
   end
 
-  depends_on macos: :monterey
+  depends_on macos: :ventura
 
   app "inro.app"
 end
