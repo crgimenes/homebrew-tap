@@ -1,6 +1,6 @@
 cask "keikiban" do
-  version "0.0.4"
-  sha256 "19970d24103d6c3c9b4715c693ec5392aff7c266f9ef5447dee546f0f3f0617e"
+  version "0.0.6"
+  sha256 "80692f2b0c2f7b28c6f3567a589677b18c98a11a96a252152a5d68b717ebdbde"
 
   url "https://github.com/crgimenes/keikiban/releases/download/v#{version}/keikiban-darwin-universal.zip"
   name "keikiban"
@@ -12,7 +12,7 @@ cask "keikiban" do
     strategy :github_latest
   end
 
-  depends_on macos: :monterey
+  depends_on macos: :ventura
 
   app "keikiban.app"
 end
