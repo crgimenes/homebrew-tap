@@ -44,6 +44,17 @@ brew install crgimenes/tap/corewar
 
 Source: <https://github.com/crgimenes/corewar>
 
+### rocchetto — a shell whose utilities are Filo programs
+
+A POSIX-style shell with its own utilities written in Filo, the same shell a
+BBS and the fosforo app on iOS carry.
+
+```bash
+brew install crgimenes/tap/rocchetto
+```
+
+Source: <https://github.com/crgimenes/rocchetto>
+
 ### filo-games — games and demos
 
 `filo-donut`, `filo-snake`, `filo-down` and `filo-fire`.
