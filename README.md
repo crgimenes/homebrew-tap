@@ -20,6 +20,17 @@ brew install --cask crgimenes/tap/kutta
 
 Source: <https://github.com/crgimenes/kutta>
 
+### fosforo — terminal emulator
+
+A terminal with a Metal renderer, configured in Filo. Signed and notarized
+universal build (Apple silicon and Intel), macOS 14 or later.
+
+```bash
+brew install --cask crgimenes/tap/fosforo
+```
+
+Source: <https://github.com/crgimenes/fosforo>
+
 ## Command-line tools
 
 Terminal programs written in [Filo](https://github.com/crgimenes/filo):
