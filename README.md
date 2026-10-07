@@ -55,6 +55,30 @@ brew install crgimenes/tap/corewar
 
 Source: <https://github.com/crgimenes/corewar>
 
+### filo — the Filo language
+
+The interpreter and compiler of the language (Go): `filo` runs, builds and
+inspects Filo programs, with files, the streams and HTTP for its own runs;
+`filofmt` and `filofix` format and modernize source.
+
+```bash
+brew install crgimenes/tap/filo
+```
+
+Source: <https://github.com/crgimenes/filo>
+
+### clang-filo — the Filo language, the light C runtime
+
+The same bytecode from the C runtime, made to embed and for small systems:
+`clang-filo` builds, runs, formats and inspects, without the Go one's REPL,
+debugger or I/O.
+
+```bash
+brew install crgimenes/tap/clang-filo
+```
+
+Source: <https://github.com/crgimenes/clang_filo>
+
 ### rocchetto — a shell whose utilities are Filo programs
 
 A POSIX-style shell with its own utilities written in Filo, the same shell a
