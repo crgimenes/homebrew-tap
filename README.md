@@ -31,6 +31,18 @@ brew install --cask crgimenes/tap/fosforo
 
 Source: <https://github.com/crgimenes/fosforo>
 
+### scorcio — a small, deliberately limited web browser
+
+One page, one window, one process: the web view the system ships, no tabs,
+scriptable in Filo. Signed and notarized universal build (Apple silicon and
+Intel), macOS 13 or later.
+
+```bash
+brew install --cask crgimenes/tap/scorcio
+```
+
+Source: <https://github.com/crgimenes/scorcio>
+
 ## Command-line tools
 
 Terminal programs written in [Filo](https://github.com/crgimenes/filo):
