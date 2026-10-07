@@ -1,6 +1,6 @@
 cask "scorcio" do
-  version "0.1.0"
-  sha256 "d92b5ec257e97092d91202f6e89a9b94e69b218db294d04a7f8996b1dd5f8edc"
+  version "0.1.1"
+  sha256 "4a210d132a1d06f02b41a68ac796769a5514fb10ad2b3eff46ac090c18590999"
 
   url "https://github.com/crgimenes/scorcio/releases/download/v#{version}/scorcio-darwin-universal.zip"
   name "scorcio"
