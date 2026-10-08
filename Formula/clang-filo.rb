@@ -8,18 +8,18 @@ class ClangFilo < Formula
   resource "clang-filo-bin" do
     on_macos do
       url "https://github.com/crgimenes/clang_filo/releases/download/v0.1.0/clang-filo-darwin-universal"
-      sha256 "383def917c9445cebc693d53cd08414875f30fd8e0dabbc711b7f8b8bb42f254"
+      sha256 "7f5c05ceb090e7c6c600a47860958e94d2acef797e4fb0bd7f405d0ada0e0c2e"
     end
 
     on_linux do
       on_intel do
         url "https://github.com/crgimenes/clang_filo/releases/download/v0.1.0/clang-filo-linux-amd64.gz"
-        sha256 "4b8983ce0a58223400dc8760801393830b630250d93750154d9e3c9329b9a9f9"
+        sha256 "bbc247a9cf9d21cee64c6eb96c761b075b09cd4d1579f2f889b091a63be23a08"
       end
 
       on_arm do
         url "https://github.com/crgimenes/clang_filo/releases/download/v0.1.0/clang-filo-linux-arm64.gz"
-        sha256 "da43aac0b7fe9a3ab898669eedfb448ef915ec2670c90f6bdbfb2897054c0288"
+        sha256 "25c7285b0043150b40a04420ceb930fc6cfa9bfd67995a28968cad5a39216086"
       end
     end
   end
