@@ -1,25 +1,25 @@
 class Rocchetto < Formula
   desc "POSIX shell whose utilities are Filo programs"
   homepage "https://github.com/crgimenes/rocchetto"
-  url "https://github.com/crgimenes/rocchetto/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "dc6cb2a87034650ca22c6b449997c534370b13f42464a18282be51bd4451fef4"
+  url "https://github.com/crgimenes/rocchetto/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "61afe207dc6c80615f619600b7f80c623fb0c8a37fb14586f618cb7b4535cde7"
   license "MIT"
 
   resource "rocchetto-bin" do
     on_macos do
-      url "https://github.com/crgimenes/rocchetto/releases/download/v0.1.1/rocchetto-darwin-universal"
-      sha256 "f17a8fcbff2b9a954b3c9bc146b215fba49efe4c00e16615f71c5d44d527e61d"
+      url "https://github.com/crgimenes/rocchetto/releases/download/v0.1.2/rocchetto-darwin-universal"
+      sha256 "093074c4ab7d4e6d0732bae2198e4b8331012b08b0a77a510dbcd224121610ce"
     end
 
     on_linux do
       on_intel do
-        url "https://github.com/crgimenes/rocchetto/releases/download/v0.1.1/rocchetto-linux-amd64.gz"
-        sha256 "b134a21c1bf9c2894fc1bc476a0623c629b5e231fefb6f72b509bedf650ff41f"
+        url "https://github.com/crgimenes/rocchetto/releases/download/v0.1.2/rocchetto-linux-amd64.gz"
+        sha256 "b6b45ddfab913a4f743779a1e4587416e8f1f0a08c971fa1c951f951c538ac00"
       end
 
       on_arm do
-        url "https://github.com/crgimenes/rocchetto/releases/download/v0.1.1/rocchetto-linux-arm64.gz"
-        sha256 "b1a608261ee1cdb2327cc2d3743883a3c6f72c0c3024c33c319ba8bb19c38a69"
+        url "https://github.com/crgimenes/rocchetto/releases/download/v0.1.2/rocchetto-linux-arm64.gz"
+        sha256 "28584823d7511186fcdd0fadb0cb03baf83fba02729b871db788305846c61728"
       end
     end
   end
