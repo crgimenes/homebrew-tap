@@ -1,25 +1,25 @@
 class Corewar < Formula
   desc "Terminal Core War: pMARS-compatible MARS, arena and warrior picker in Filo"
   homepage "https://github.com/crgimenes/corewar"
-  url "https://github.com/crgimenes/corewar/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "92f8ca52c232a9dd075ea9ea3078557022e95c0f0e991321226ddc17a623c326"
+  url "https://github.com/crgimenes/corewar/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "afff60cd918ec467ba1c70fab702515cbb908893cab8718deae835e1ffc9f6b1"
   license "MIT"
 
   resource "corewar" do
     on_macos do
-      url "https://github.com/crgimenes/corewar/releases/download/v0.1.0/corewar-darwin-universal"
-      sha256 "e5553c032116d24e84ba3c52336e99ce530e709c0ea76b69a45b85bf29308f2b"
+      url "https://github.com/crgimenes/corewar/releases/download/v0.1.1/corewar-darwin-universal"
+      sha256 "d79e1c774f06b29c2b8f380fd0ab885dc214cfcc16df14ed4480426209df4171"
     end
 
     on_linux do
       on_intel do
-        url "https://github.com/crgimenes/corewar/releases/download/v0.1.0/corewar-linux-amd64.gz"
-        sha256 "34c1a1dcac18faad74bc14df515bddbc49e0466c77811851ad5174c337a93b37"
+        url "https://github.com/crgimenes/corewar/releases/download/v0.1.1/corewar-linux-amd64.gz"
+        sha256 "edb7036fb0a19c734b82474dbae1ec1a33c15ca1c234493108bf84b2b15753ad"
       end
 
       on_arm do
-        url "https://github.com/crgimenes/corewar/releases/download/v0.1.0/corewar-linux-arm64.gz"
-        sha256 "6737f161547269d29cc5667e761331d7be0487ce9925ef1fd88923a67b7ac180"
+        url "https://github.com/crgimenes/corewar/releases/download/v0.1.1/corewar-linux-arm64.gz"
+        sha256 "11ded9e4a4052f290daf82c28ba53fc20d90dccf90989b2fc7aa5a2e99210a68"
       end
     end
   end
