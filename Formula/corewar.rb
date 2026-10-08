@@ -8,18 +8,18 @@ class Corewar < Formula
   resource "corewar-bin" do
     on_macos do
       url "https://github.com/crgimenes/corewar/releases/download/v0.1.1/corewar-darwin-universal"
-      sha256 "d79e1c774f06b29c2b8f380fd0ab885dc214cfcc16df14ed4480426209df4171"
+      sha256 "7951725ead8fdf67611fdc6ede7c63418d445e088a3ba4e6b282bff997e5030c"
     end
 
     on_linux do
       on_intel do
         url "https://github.com/crgimenes/corewar/releases/download/v0.1.1/corewar-linux-amd64.gz"
-        sha256 "edb7036fb0a19c734b82474dbae1ec1a33c15ca1c234493108bf84b2b15753ad"
+        sha256 "ba8bc808bbd38c1d036b2e51a61162afb465adcb2cc0b7b20a94560e4de13168"
       end
 
       on_arm do
         url "https://github.com/crgimenes/corewar/releases/download/v0.1.1/corewar-linux-arm64.gz"
-        sha256 "11ded9e4a4052f290daf82c28ba53fc20d90dccf90989b2fc7aa5a2e99210a68"
+        sha256 "222e190c2815e991732b3d672a5b0369e36a5dbd137bc0b10bb160fde9d5d8a0"
       end
     end
   end
