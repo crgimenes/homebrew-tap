@@ -5,7 +5,7 @@ class Filo < Formula
   sha256 "08b356ece0dac3a98a3f6a2723829cfb8868143d488f636fe9848ac8142de2b1"
   license "MIT"
 
-  resource "filo" do
+  resource "filo-bin" do
     on_macos do
       url "https://github.com/crgimenes/filo/releases/download/v0.1.0/filo-darwin-universal"
       sha256 "b580f41652629334885b65185f24f595b1240daf149bfe30a93c007ebd826a74"
@@ -24,7 +24,7 @@ class Filo < Formula
     end
   end
 
-  resource "filofix" do
+  resource "filofix-bin" do
     on_macos do
       url "https://github.com/crgimenes/filo/releases/download/v0.1.0/filofix-darwin-universal"
       sha256 "fba48ace3c5bb9754740fbdaf1d33443b04b34429407c9616f2d30af73c440f1"
@@ -43,7 +43,7 @@ class Filo < Formula
     end
   end
 
-  resource "filofmt" do
+  resource "filofmt-bin" do
     on_macos do
       url "https://github.com/crgimenes/filo/releases/download/v0.1.0/filofmt-darwin-universal"
       sha256 "219cbc94c6cef3159d17b07cf549bc2ae353b1a9583935885fae4be66f8ca15d"
@@ -64,7 +64,7 @@ class Filo < Formula
 
   def install
     resources.each do |r|
-      r.stage { bin.install Dir["*"].first => r.name }
+      r.stage { bin.install Dir["*"].first => r.name.delete_suffix("-bin") }
     end
   end
 

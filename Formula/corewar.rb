@@ -5,7 +5,7 @@ class Corewar < Formula
   sha256 "afff60cd918ec467ba1c70fab702515cbb908893cab8718deae835e1ffc9f6b1"
   license "MIT"
 
-  resource "corewar" do
+  resource "corewar-bin" do
     on_macos do
       url "https://github.com/crgimenes/corewar/releases/download/v0.1.1/corewar-darwin-universal"
       sha256 "d79e1c774f06b29c2b8f380fd0ab885dc214cfcc16df14ed4480426209df4171"
@@ -26,7 +26,7 @@ class Corewar < Formula
 
   def install
     resources.each do |r|
-      r.stage { bin.install Dir["*"].first => r.name }
+      r.stage { bin.install Dir["*"].first => r.name.delete_suffix("-bin") }
     end
   end
 

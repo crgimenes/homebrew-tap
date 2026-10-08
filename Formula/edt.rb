@@ -5,7 +5,7 @@ class Edt < Formula
   sha256 "e79f32c60648a08f2c45a643b4e17e03c5c278733a915cec8658f2617ef7048e"
   license "MIT"
 
-  resource "edt" do
+  resource "edt-bin" do
     on_macos do
       url "https://github.com/crgimenes/edt/releases/download/v0.1.2/edt-darwin-universal"
       sha256 "708296884cbe9e606096b9d76478ab1d6102dfe1de2cec2114f10abb42dcc9cb"
@@ -26,7 +26,7 @@ class Edt < Formula
 
   def install
     resources.each do |r|
-      r.stage { bin.install Dir["*"].first => r.name }
+      r.stage { bin.install Dir["*"].first => r.name.delete_suffix("-bin") }
     end
   end
 

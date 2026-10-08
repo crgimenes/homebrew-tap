@@ -5,7 +5,7 @@ class ClangFilo < Formula
   sha256 "f9bfbc49ff1c9162db390fe4df14a4be0194d9cdb7fa6b2c317c36ff605a783f"
   license "MIT"
 
-  resource "clang-filo" do
+  resource "clang-filo-bin" do
     on_macos do
       url "https://github.com/crgimenes/clang_filo/releases/download/v0.1.0/clang-filo-darwin-universal"
       sha256 "383def917c9445cebc693d53cd08414875f30fd8e0dabbc711b7f8b8bb42f254"
@@ -26,7 +26,7 @@ class ClangFilo < Formula
 
   def install
     resources.each do |r|
-      r.stage { bin.install Dir["*"].first => r.name }
+      r.stage { bin.install Dir["*"].first => r.name.delete_suffix("-bin") }
     end
   end
 

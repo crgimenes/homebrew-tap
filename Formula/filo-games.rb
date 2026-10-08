@@ -5,7 +5,7 @@ class FiloGames < Formula
   sha256 "7700b27911f040fdab7d3663b554a0dbc46d7afb1d0c723b11d4a7308a7e8862"
   license "MIT"
 
-  resource "filo-donut" do
+  resource "filo-donut-bin" do
     on_macos do
       url "https://github.com/crgimenes/filo-games/releases/download/v0.1.1/filo-donut-darwin-universal"
       sha256 "04a4b840b3887c9e3c2ad257b580ee8b04f1ec6ef9660d2b6699015f8b4f0692"
@@ -24,7 +24,7 @@ class FiloGames < Formula
     end
   end
 
-  resource "filo-down" do
+  resource "filo-down-bin" do
     on_macos do
       url "https://github.com/crgimenes/filo-games/releases/download/v0.1.1/filo-down-darwin-universal"
       sha256 "41f4561d1bad7ec2e8523263ba50524271e9f893d9128ad3fd64a92994977471"
@@ -43,7 +43,7 @@ class FiloGames < Formula
     end
   end
 
-  resource "filo-fire" do
+  resource "filo-fire-bin" do
     on_macos do
       url "https://github.com/crgimenes/filo-games/releases/download/v0.1.1/filo-fire-darwin-universal"
       sha256 "1bf091d49c61d9d73a246d1d80df312a76de21d91f5982db8d3b3e3a70137635"
@@ -62,7 +62,7 @@ class FiloGames < Formula
     end
   end
 
-  resource "filo-snake" do
+  resource "filo-snake-bin" do
     on_macos do
       url "https://github.com/crgimenes/filo-games/releases/download/v0.1.1/filo-snake-darwin-universal"
       sha256 "cd5ca2d8c6ab4abdb85dd881262258fcb6a3cc0e48d83e4fdab997a064c50e8c"
@@ -83,7 +83,7 @@ class FiloGames < Formula
 
   def install
     resources.each do |r|
-      r.stage { bin.install Dir["*"].first => r.name }
+      r.stage { bin.install Dir["*"].first => r.name.delete_suffix("-bin") }
     end
   end
 

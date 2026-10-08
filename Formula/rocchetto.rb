@@ -5,7 +5,7 @@ class Rocchetto < Formula
   sha256 "583858da337f2bca05a961cab7fe2e3bc1fce04e51211a184d686ccbc1b11b3f"
   license "MIT"
 
-  resource "rocchetto" do
+  resource "rocchetto-bin" do
     on_macos do
       url "https://github.com/crgimenes/rocchetto/releases/download/v0.1.0/rocchetto-darwin-universal"
       sha256 "8a9a05cf78364eceb9363bf5d91847b3961fd26f6d2de511f0a27b713756841c"
@@ -26,7 +26,7 @@ class Rocchetto < Formula
 
   def install
     resources.each do |r|
-      r.stage { bin.install Dir["*"].first => r.name }
+      r.stage { bin.install Dir["*"].first => r.name.delete_suffix("-bin") }
     end
   end
 
