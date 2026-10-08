@@ -8,18 +8,18 @@ class Rocchetto < Formula
   resource "rocchetto-bin" do
     on_macos do
       url "https://github.com/crgimenes/rocchetto/releases/download/v0.1.0/rocchetto-darwin-universal"
-      sha256 "8a9a05cf78364eceb9363bf5d91847b3961fd26f6d2de511f0a27b713756841c"
+      sha256 "b4bca3350379c090454f74167a7dd2c246c8604508dfd435dfeb35b228778635"
     end
 
     on_linux do
       on_intel do
         url "https://github.com/crgimenes/rocchetto/releases/download/v0.1.0/rocchetto-linux-amd64.gz"
-        sha256 "cfca0a6c8b0c42bcf7c7bd9fa665de13f587f0b02a3e1aedc0d770527d3acc48"
+        sha256 "9697196ef6f97b283bbfefac5469e08675504ad918235522c2ea0dbe8ba7e6e9"
       end
 
       on_arm do
         url "https://github.com/crgimenes/rocchetto/releases/download/v0.1.0/rocchetto-linux-arm64.gz"
-        sha256 "279c43e568a4706763f9d9fd5a6de829a99c0b971c3fab0bd9577e8358d21636"
+        sha256 "2450cc067886b3930282d1c4efba030547e6f12e147bd765bc009a1334de85ff"
       end
     end
   end
