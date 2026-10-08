@@ -8,18 +8,18 @@ class Filo < Formula
   resource "filo-bin" do
     on_macos do
       url "https://github.com/crgimenes/filo/releases/download/v0.1.0/filo-darwin-universal"
-      sha256 "b580f41652629334885b65185f24f595b1240daf149bfe30a93c007ebd826a74"
+      sha256 "20de806092d897fffdb7ff13a39aa07e019c9fdfe1705bfd6cbabf66d24808da"
     end
 
     on_linux do
       on_intel do
         url "https://github.com/crgimenes/filo/releases/download/v0.1.0/filo-linux-amd64.gz"
-        sha256 "dbc7b66016d811640548dd64171fe00657c45068867f3ac64dbe971054b85d6c"
+        sha256 "cfc812468b6c5979d9e3322155d121248f68dc14064e25c0433ac49e60e69700"
       end
 
       on_arm do
         url "https://github.com/crgimenes/filo/releases/download/v0.1.0/filo-linux-arm64.gz"
-        sha256 "608be6a2ef4e7a335dee2593522ec47b7e7b5a31eca14ecf673d17b08fef39e9"
+        sha256 "e1bc967cf48592eaeb2f4e13a932909ae346707dcbe0f4830537b9ef287d9525"
       end
     end
   end
@@ -27,18 +27,18 @@ class Filo < Formula
   resource "filofix-bin" do
     on_macos do
       url "https://github.com/crgimenes/filo/releases/download/v0.1.0/filofix-darwin-universal"
-      sha256 "fba48ace3c5bb9754740fbdaf1d33443b04b34429407c9616f2d30af73c440f1"
+      sha256 "2ff8f3cbc88bdaab69b9e96907c9f9040a328931eb891d2364d38693701efc3f"
     end
 
     on_linux do
       on_intel do
         url "https://github.com/crgimenes/filo/releases/download/v0.1.0/filofix-linux-amd64.gz"
-        sha256 "787e478f245233159bac5974765804a258554da9e58315498bd34f4a1e73b16d"
+        sha256 "2f0773d406415b70e2671e2fca609235723b801c128a67ec84c3c231b8f39395"
       end
 
       on_arm do
         url "https://github.com/crgimenes/filo/releases/download/v0.1.0/filofix-linux-arm64.gz"
-        sha256 "2129fd454045e7112256a0b97c7ecf9e912ab6bf08a708bbd33c64d9854c59d5"
+        sha256 "71393c1dc2aee9c3f2e1aa1ced2a62cb21862169a0e5afe3b5729b4d04bf07df"
       end
     end
   end
@@ -46,18 +46,18 @@ class Filo < Formula
   resource "filofmt-bin" do
     on_macos do
       url "https://github.com/crgimenes/filo/releases/download/v0.1.0/filofmt-darwin-universal"
-      sha256 "219cbc94c6cef3159d17b07cf549bc2ae353b1a9583935885fae4be66f8ca15d"
+      sha256 "3587934de44f675d999242bc1252ed1ba3b8ad563aa22b0c4d25df242e6a97fe"
     end
 
     on_linux do
       on_intel do
         url "https://github.com/crgimenes/filo/releases/download/v0.1.0/filofmt-linux-amd64.gz"
-        sha256 "d75d4410e6c1f291143a1fc3f9996e197afa08d3287b07d44d5aef3784ce44d7"
+        sha256 "8e8dd641d5fe6aab0cd576900928bbeb1b95057dd5aec2f034006c4fb8562727"
       end
 
       on_arm do
         url "https://github.com/crgimenes/filo/releases/download/v0.1.0/filofmt-linux-arm64.gz"
-        sha256 "456d631f807750ca44423c611e07a2080fca188ac2bc8489bfb23d165a48608b"
+        sha256 "4b945edfa94a66f019ed037ee3486e17c8d29b870dfe874d99ed27f932ab8928"
       end
     end
   end
