@@ -8,18 +8,18 @@ class Edt < Formula
   resource "edt-bin" do
     on_macos do
       url "https://github.com/crgimenes/edt/releases/download/v0.1.2/edt-darwin-universal"
-      sha256 "708296884cbe9e606096b9d76478ab1d6102dfe1de2cec2114f10abb42dcc9cb"
+      sha256 "c43c30d16027fb5526b374dbfff1af2868ed1f0d5ea1510c8eaf0d1abb3feb47"
     end
 
     on_linux do
       on_intel do
         url "https://github.com/crgimenes/edt/releases/download/v0.1.2/edt-linux-amd64.gz"
-        sha256 "ebc5c3c6e61d8d606cbd67c8744af40aabe6a77c17589d0f664936a777094a9e"
+        sha256 "4051c095f0b82e11ee2c6203be57186c01523892346960cdc8acc2e8476ebcb7"
       end
 
       on_arm do
         url "https://github.com/crgimenes/edt/releases/download/v0.1.2/edt-linux-arm64.gz"
-        sha256 "7c8d6750ddf117349951ec9278d438c93223fd69dde259a8e02c2921fc60dab1"
+        sha256 "abc855ce48c28e02283833c5653603e621d6c87fce9cfbdee79ae0f98bccf55f"
       end
     end
   end
