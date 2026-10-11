@@ -1,6 +1,6 @@
 cask "fosforo" do
-  version "1.0.0"
-  sha256 "12a11bf00de16bde7986aa1236857a7f8918b327fad8cbf97b21c0e35456263b"
+  version "1.0.1"
+  sha256 "3130c32a250d8db006dbd37440e8ad1cbaa588b58e0c81270f932d4e54f31b60"
 
   url "https://github.com/crgimenes/fosforo/releases/download/v#{version}/fosforo-macos.zip"
   name "fosforo"
