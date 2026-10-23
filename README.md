@@ -111,3 +111,16 @@ brew install crgimenes/tap/filo-games
 ```
 
 Source: <https://github.com/crgimenes/filo-games>
+
+### carillon — tracker and synthesizer for chiptune music
+
+A tracker on the terminal, heard as it is written, and the tools around its
+songs: `cilindro-play` plays one, `cilindro2wav` renders it to WAV,
+`cilindro2c` turns it into a C header a game includes. The Linux binaries
+need glibc 2.28 or later, and play through libasound when it is there.
+
+```bash
+brew install crgimenes/tap/carillon
+```
+
+Source: <https://github.com/crgimenes/carillon>
