@@ -46,7 +46,8 @@ Source: <https://github.com/crgimenes/scorcio>
 ## Command-line tools
 
 Terminal programs written in [Filo](https://github.com/crgimenes/filo):
-signed universal binaries for macOS, static ones for Linux (amd64 and arm64).
+signed universal binaries for macOS, static ones for Linux (amd64 and arm64)
+where the entry does not say otherwise.
 
 ### edt — text and hex editor
 
@@ -104,7 +105,9 @@ Source: <https://github.com/crgimenes/rocchetto>
 
 ### filo-games — games and demos
 
-`filo-donut`, `filo-snake`, `filo-down` and `filo-fire`.
+`filo-donut`, `filo-snake`, `filo-down`, `filo-fire`, `filo-lights`,
+`filo-twenty48`, `filo-mastermind`, `filo-wumpus`, `filo-mines`,
+`filo-sokoban`, `filo-tictactoe`, `filo-life`, `filo-matrix` and `filo-stars`.
 
 ```bash
 brew install crgimenes/tap/filo-games
