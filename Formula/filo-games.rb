@@ -8,18 +8,18 @@ class FiloGames < Formula
   resource "filo-donut-bin" do
     on_macos do
       url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-donut-darwin-universal"
-      sha256 "f78966f0918fd580fc44fa4e321596edc3ab20991b28c09a9800e51b3674fc71"
+      sha256 "99e9cb857cb40b46cfd3be350cebecd08d1711f406b0b4cad14e3fc090a1bb6f"
     end
 
     on_linux do
       on_intel do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-donut-linux-amd64.gz"
-        sha256 "25f20f4a8d7bda7874e11d958e7eef69d4adce9d6383436f283d8cb99804929b"
+        sha256 "93e0a2a5237f46942af6156aa4c5c5e739ba4d137e7f2bd70e93649453805f34"
       end
 
       on_arm do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-donut-linux-arm64.gz"
-        sha256 "92eb27dcd82d6742ee6f2154c63f58084a113ff67a5645db2dd2d61de42be3dc"
+        sha256 "0a22607056f8eea4db7716f0b3fd7d43d7f878ab6406ebdd3051c27a51c45228"
       end
     end
   end
@@ -27,18 +27,18 @@ class FiloGames < Formula
   resource "filo-down-bin" do
     on_macos do
       url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-down-darwin-universal"
-      sha256 "ed8df1ed9ad1656cc1f8770a6fcccca43bf4a07c34016ad7c3ef3c5b3f123f84"
+      sha256 "d52eb60a0ebe5df05280a03ead03ba6ef2dff657d06235d24df62da67c8ae482"
     end
 
     on_linux do
       on_intel do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-down-linux-amd64.gz"
-        sha256 "c8e45d281b8658f9ed710308d0de5d6305ffbf746be1f41766e3af624878768a"
+        sha256 "eeb5d4a79db2483afff8c62ec8e40f960fe7387cdd9158b2bf30ede880bd09ce"
       end
 
       on_arm do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-down-linux-arm64.gz"
-        sha256 "356d2bf9ce7b531044c1158576e125ff184c13e26818e943c7bf0144f201cdce"
+        sha256 "82b51b0dc37951743d85441dc897eb2751d2025f014d594d7c779f950d03ea5c"
       end
     end
   end
@@ -46,18 +46,18 @@ class FiloGames < Formula
   resource "filo-fire-bin" do
     on_macos do
       url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-fire-darwin-universal"
-      sha256 "38eab6817130cf2e39c17d9d086274817c1bab8decb93ece6bd3f704eeee2a70"
+      sha256 "c0bf53bad563b755885745e2913cfa221c58c7f1eb1dc481c222388f54c1302c"
     end
 
     on_linux do
       on_intel do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-fire-linux-amd64.gz"
-        sha256 "df5723c9c945c5f44a64bda675727283bf1ff48c1d991c60981eec3499a22635"
+        sha256 "88b4aaa60fac04e1953da9631755138ecd9af9c5685de7432f5668e2c6751d88"
       end
 
       on_arm do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-fire-linux-arm64.gz"
-        sha256 "06cf3412cde0ec6dc27e6eb38e61ac94817e147a58ece03c1f1bceed6e71dcd0"
+        sha256 "427d75f1f7b38de621b2c2f6b96d4af75cbe68c0ea59098520ec40228ebc74d2"
       end
     end
   end
@@ -65,18 +65,18 @@ class FiloGames < Formula
   resource "filo-life-bin" do
     on_macos do
       url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-life-darwin-universal"
-      sha256 "b5f965665d68d53d0c88502b9c42b3f8d4463f3e0e11fd0fa8a0ac11b84fcf67"
+      sha256 "9741fc8ad32d4538818118e2ceae0caffe184af34845e8171b4713529e40edca"
     end
 
     on_linux do
       on_intel do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-life-linux-amd64.gz"
-        sha256 "81d1398e922955a701037f61fca561731c9e8c93ea7962f8b07109095195e617"
+        sha256 "6a7375a23e732d3c6e3023d2cd4f6bb86f84daaf15c7ae017fc982ccc8b32964"
       end
 
       on_arm do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-life-linux-arm64.gz"
-        sha256 "78cc675e79c6317a8316c83132d68163fd6973d16681e26762ffe37b543d5b1b"
+        sha256 "e6a57f4ccc747256101f8393f646f6ece8e8ff092527ac52a5a03f347a301386"
       end
     end
   end
@@ -84,18 +84,18 @@ class FiloGames < Formula
   resource "filo-lights-bin" do
     on_macos do
       url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-lights-darwin-universal"
-      sha256 "8bca2ba750cfdf66504b55fbf185939dc32a4a6c9e51a859ac3a456fa481a001"
+      sha256 "909b3ea56b7255ca97aa4d800326d7610ea90605394599fabc819066788370ef"
     end
 
     on_linux do
       on_intel do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-lights-linux-amd64.gz"
-        sha256 "564eaf2fcd97f221a234d64d6929365299150d5817847b68e5ee6bad01385cff"
+        sha256 "0f76b69a591a8ee82478297f2efd4563a4b06101476d2101141c2faea2c7665d"
       end
 
       on_arm do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-lights-linux-arm64.gz"
-        sha256 "6521b07c3f577666dbe074186c7ba821cf3a91d8ffe9896add7f3d6a5c310d56"
+        sha256 "0d18fa0582779b5689476f691b2c214d6683993299f0ce915faef258dba5ecc1"
       end
     end
   end
@@ -103,18 +103,18 @@ class FiloGames < Formula
   resource "filo-mastermind-bin" do
     on_macos do
       url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-mastermind-darwin-universal"
-      sha256 "2878412a43a5090febe46fddbc831a67135f939127d668232e3ccf401b894691"
+      sha256 "0d4e59126ea905bc4ed3c7a8ab71480abfb71adba514336fb83f506f2606d9ee"
     end
 
     on_linux do
       on_intel do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-mastermind-linux-amd64.gz"
-        sha256 "34d156c2c46300588b33765511c7d4b30c41c3d3e722814e0824b5bfeb1176fe"
+        sha256 "82d30a9e242b55a967e6b97bbf434d9f11ffcb16883581f64faefd26d883a90f"
       end
 
       on_arm do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-mastermind-linux-arm64.gz"
-        sha256 "ada07ebe2d5ed5730422f7f4cb9a67b4cbf55c6036ff7a7df862ffec4846158c"
+        sha256 "97af62fc7702dd8cc49b3dbbe10233aa6b3f3b9681c9df5bb11e49accfabfc1e"
       end
     end
   end
@@ -122,18 +122,18 @@ class FiloGames < Formula
   resource "filo-matrix-bin" do
     on_macos do
       url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-matrix-darwin-universal"
-      sha256 "96b14bbec16bb3fb1e24a93b384310c9aacc8d02157392835f1f58df20495f9d"
+      sha256 "c81dcfd582e22b0eaf3f813709b63f21ba408159d226117556c09896ac077d96"
     end
 
     on_linux do
       on_intel do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-matrix-linux-amd64.gz"
-        sha256 "aaffcdb26819446fd882ba905c4a12c1ed84817bf62754480fd137c6630a6a0d"
+        sha256 "f747fb8d0f2534fde1f82cb6bc0c9239458cb7405d6dbd5f65a7765466e56b17"
       end
 
       on_arm do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-matrix-linux-arm64.gz"
-        sha256 "53c7721b993d76a1fbc161dd69278a8bd5a18a559f859eaec3e3ddd8a4769598"
+        sha256 "8a6baad2fa051bde6dedb6d118b1d0acfc2283d547faf68923577326d9cff901"
       end
     end
   end
@@ -141,18 +141,18 @@ class FiloGames < Formula
   resource "filo-mines-bin" do
     on_macos do
       url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-mines-darwin-universal"
-      sha256 "f602e203dbf0320c069c845bb731e8601185fcdc1f677a8969e6515cbcd05147"
+      sha256 "0b0971b2d742cfd550d175d72ad528d8016cf8161ecdeb39a6b0371f0fab38a3"
     end
 
     on_linux do
       on_intel do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-mines-linux-amd64.gz"
-        sha256 "fc260063450e72a7717618cccea8968db5a6ab780917dc3c8b434a0c31fc852a"
+        sha256 "bfc9d0ebfc4768d48ceaff81dfe73dc5e309cd11637a7fc19b83c2122bcb7fab"
       end
 
       on_arm do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-mines-linux-arm64.gz"
-        sha256 "e776ea883435e5a9d5faace3e257524106bd22745cab1a34d1282b7df4393f4b"
+        sha256 "ac98b46d0a5e36915a67858782be77a9d04ba47d043072d4287bb995f5ec63ef"
       end
     end
   end
@@ -160,18 +160,18 @@ class FiloGames < Formula
   resource "filo-snake-bin" do
     on_macos do
       url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-snake-darwin-universal"
-      sha256 "6c52a49325daca4c59ff7cf8a8c8a6f06ea17163e0a6fb8fbe8365e9d792b160"
+      sha256 "b8b51b5aff13b6757e18cff4d1ef3e7829796e365918d9ec89953a38e1e11127"
     end
 
     on_linux do
       on_intel do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-snake-linux-amd64.gz"
-        sha256 "9650de71bc0fc23a73443c9f1b9522dfc09db7db0e3d35355a460e2235a6af88"
+        sha256 "b684dbb029df1938be7bb7fb2ca6ad358cfa9357d8f471581e2abcc424fefa98"
       end
 
       on_arm do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-snake-linux-arm64.gz"
-        sha256 "f6a6b35554b78a6ecf82f429d3106a46d258bcc4c6d03f3c339119e1f23ef85b"
+        sha256 "cdd28c068225d564fc8071b16e97a88c945803a8262cdec0162c75cb72834bf0"
       end
     end
   end
@@ -179,18 +179,18 @@ class FiloGames < Formula
   resource "filo-sokoban-bin" do
     on_macos do
       url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-sokoban-darwin-universal"
-      sha256 "89373f5a628d61dd4a8252355f421d4155c9c9d67db37d26222177b78f86b2cb"
+      sha256 "874dbeb22415323931a6048afddee747f7ee30330e6de397e34feecb9d8b4cc9"
     end
 
     on_linux do
       on_intel do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-sokoban-linux-amd64.gz"
-        sha256 "5ef11f984eb18793200614864269d47c8b9c50adf69e2f26cedc24fe4d5967c7"
+        sha256 "7b2a3edeb75f340214b2afeec91648ce5943021545aa63f18bf46b402b803b0a"
       end
 
       on_arm do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-sokoban-linux-arm64.gz"
-        sha256 "5c2077eaa8c087a2e00873be4ee0665cc81f9d462874b13b7bbd05a19312c6fb"
+        sha256 "5d77750ef2013cf7623a65b243c586121d4a0ebdd238638595d48264bc2d3c5b"
       end
     end
   end
@@ -198,18 +198,18 @@ class FiloGames < Formula
   resource "filo-stars-bin" do
     on_macos do
       url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-stars-darwin-universal"
-      sha256 "a9131ec78b40d7862027a70bb98f249b2bcb06ca075790bab5ea3d61015ed813"
+      sha256 "fed1c0b6710c914f1b5b8fb65aead8455f47e0f9d19760e228be549d7797d3a5"
     end
 
     on_linux do
       on_intel do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-stars-linux-amd64.gz"
-        sha256 "d2931cfeaf1fd50f2b0e2e18d03e5d5bbf666a5e2be70b1800b5c3397451c875"
+        sha256 "7b154ae1f986475e488b48bf2228ebb7304f7636e299213f3b1c44e676c35fdc"
       end
 
       on_arm do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-stars-linux-arm64.gz"
-        sha256 "0a8a9a11b7d07842d1820b25fb9e35b9a0a4d9771d78ff3de13cd6219c523038"
+        sha256 "c4ad5fbac1c3bd493d63b1be00db888c7fce8fda9dec88f7d79695ee2125f3d6"
       end
     end
   end
@@ -217,18 +217,18 @@ class FiloGames < Formula
   resource "filo-tictactoe-bin" do
     on_macos do
       url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-tictactoe-darwin-universal"
-      sha256 "4870ff1cfdca7ad4cdf975287c2d08aa3ee2f62bc5ce22d85be423ca3424a0f8"
+      sha256 "66bdbc30776c131a851d83cd9bb75977bebe62ff6e4d9ebd1bd33fe470e63fdc"
     end
 
     on_linux do
       on_intel do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-tictactoe-linux-amd64.gz"
-        sha256 "f87bf915f43f2d31cd93788190d8d5d1a9f2d70100694ae27d585d4917def8f9"
+        sha256 "ac5c6adcf45f9934e61a3738a864d8ae82d31930d3a69bd247797efc950eab06"
       end
 
       on_arm do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-tictactoe-linux-arm64.gz"
-        sha256 "003595e65b97bc6de7a5bcd7b8d00dbd090197431a6696beffd42ceef2744334"
+        sha256 "92d94d7e20451ac5c5194e4247b5dacd650d8f729010ffc0610e01b53b00c752"
       end
     end
   end
@@ -236,18 +236,18 @@ class FiloGames < Formula
   resource "filo-twenty48-bin" do
     on_macos do
       url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-twenty48-darwin-universal"
-      sha256 "24bb0881d3864629bf435b585cb85d6332e92fa59e60f67850e985fe78ebb81d"
+      sha256 "ba92f7937416c556810cec365b8f28ec8e63c971a8c649e6b15fc791bd1d784c"
     end
 
     on_linux do
       on_intel do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-twenty48-linux-amd64.gz"
-        sha256 "643d98acd1abdb00a1ab6ce4c2d7e53dc5b84014a289adfc6aa30357780bbba8"
+        sha256 "51f9382ded6da5d51a28f8280299cad9d20d01e0d28d0c23ea85efbe9fc98a09"
       end
 
       on_arm do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-twenty48-linux-arm64.gz"
-        sha256 "44470a531482a631720996a7f33fc70ccb94590460e7465799c4a225e5792dcb"
+        sha256 "f49e9b58b3c10ce093dfe71d42bdca8c7e04e9282bb3198816d6300c61059ae7"
       end
     end
   end
@@ -255,18 +255,18 @@ class FiloGames < Formula
   resource "filo-wumpus-bin" do
     on_macos do
       url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-wumpus-darwin-universal"
-      sha256 "3d827e52a28b5c37cf6ab9a9cd69ecd7ea01975bea853fdbf59c938cd61bc339"
+      sha256 "d1ead9697ae02b6cc3eb056783a182412afff8420e5f8299490497b78556ad5c"
     end
 
     on_linux do
       on_intel do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-wumpus-linux-amd64.gz"
-        sha256 "b2479e2a1509ce748427063dbc31f2a3b24e92c93013c013262cf57c0d1e8b2b"
+        sha256 "6833cb715f0c5ac7befe56d6ff47077dd17f629a7a8ca5adc19a6788cf159d6d"
       end
 
       on_arm do
         url "https://github.com/crgimenes/filo-games/releases/download/v0.0.2/filo-wumpus-linux-arm64.gz"
-        sha256 "31b18812d58b80bfc76309de1ee48b3329434b55d3f3c73181f8a7d487d037bf"
+        sha256 "599a98e8ec57632edf9010c73f5f9dc461a71febf8000fa090e999e296fb4641"
       end
     end
   end
